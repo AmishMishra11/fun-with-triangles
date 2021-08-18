@@ -1,5 +1,5 @@
 :root {
-  --primary: #be185d;
+  --primary: #b43e6f;
   --secondary: #1f2937;
 }
 body {
@@ -13,13 +13,14 @@ body {
 }
 .navigation {
   background-color: var(--primary);
-  border-radius: 1.5rem;
+
   padding: 0.5rem;
   color: white;
 }
 .header {
   font-weight: bold;
   font-size: 2rem;
+  padding-left: 2rem;
 }
 .nav-list {
   list-style: none;
@@ -77,7 +78,6 @@ button {
   padding-top: 1rem;
   text-align: center;
   color: white;
-  border-radius: 1.5rem;
 }
 .footer .footer-header {
   font-weight: bold;
