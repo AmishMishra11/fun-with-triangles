@@ -11,10 +11,10 @@ function calculateArea() {
   if (sida && sidb && sidc) {
     if (sida >= 0 && sidb >= 0 && sidc >= 0) {
       var s = (sida + sidb + sidc) / 2;
-      var a = s * (s - sida) * (s - sidb) * (s - sidc);
-      a = Math.sqrt(a);
+      var area = s * (s - sida) * (s - sidb) * (s - sidc);
+      area = Math.sqrt(area);
       messagearea.innerText =
-        "Area of a triangle using heron's formula is " + a;
+        "Area of a triangle using heron's formula is " + area;
     } else {
       messagearea.innerText = "Sides should be positive.";
     }
